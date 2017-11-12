@@ -21,6 +21,15 @@ public class Database {
 		}
 	}
 	
+	public int count() {
+		int num = 0;
+		for(Item item:items)
+		{
+			num++;
+		}
+		reuturn num;
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Database db = new Database();
